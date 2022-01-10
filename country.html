@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>country</title>
+    <link rel="stylesheet" href="images/country.css">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="images/cricket_logo.png" alt="">
+        </div>
+        <!-- this is for background logo -->
+        <div class="background">
+            <img src="images/india_logo.png" id="logobg" alt="">
+        </div>
+
+        <div class="heading">
+            <h1 id="head">
+                TEAM INDIA
+            </h1>
+
+            <p style="font-weight: 500;">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nam nesciunt cum error officia, perferendis
+                laborum. Sunt aperiam sit, tempore voluptatem assumenda quam nam architecto consectetur veniam natus
+                veritatis corrupti quod minima quo. Atque porro corrupti praesentium culpa tempore? Ipsam.
+            </p>
+
+            <button id="btn">TEAM</button>
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="images/I_P.png" alt="">
+        </div>
+        <!-- now navbar -->
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Team</li>
+                <li>Performance</li>
+                <li>Rank</li>
+            </ul>
+        </div>
+        <div class="empty">
+
+
+        </div>
+
+        <div class="list">
+            <ol>
+                <li onclick="myFun('images/I_P.png', 'dodgerblue', 'TEAM ENGLAND', 'images/india_logo.png')">
+                    INDIA</li>
+                <li onclick="myFun('images/england_p.png', 'RED', 'TEAM ENGLAND', 'images/ENGLAND_LOGO.png')">
+                    ENGLAND</li>
+
+                <li onclick="myFun('images/australia_p.png', 'green', 'TEAM AUSTRALIA', 'images/Australia_logo.png')">
+                    AUSTRALIA</li>
+                <li onclick="myFun('images/sa_p.png', 'yellow', 'TEAM SOUTH AFRICA', 'images/sa-logo.png')">SOUTH
+                    AFRICA
+                </li>
+                <li onclick="myFun('images/sr_p.png', 'yellow', 'TEAM SIR LANKA', 'images/sr_logo.png')">SRI
+                    LANKA
+                </li>
+                <li onclick="myFun('images/p_p.png', 'green', 'TEAM PAKISTAN', 'images/p_logo.png')">PAKISTAN</li>
+            </ol>
+        </div>
+    </div>
+    
+    <script>
+        function myFun(image, colour, head, logo) {
+            document.getElementById('myimage').src = image;
+            document.querySelector('.empty').style.backgroundColor = colour;
+            document.querySelector('button').style.backgroundColor = colour;
+            document.getElementById('head').innerHTML = head;
+            document.getElementById('logobg').src = logo;
+        }
+    </script>
+</body>
+
+</html>
