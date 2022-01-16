@@ -1,0 +1,80 @@
+{
+    "BATSMEN": [
+        {
+            "name": "Kannaur Lokesh Rahul",
+            "age": "29",
+            "BATTING": "Right-hand bat",
+            "t20": "1831"
+        },
+        {
+            "name": "Rishabh Rajendra Pant",
+            "age": "24",
+            "BATTING": "Left-hand bat",
+            "t20": "623"
+        },
+        {
+            "name": "Virat Kohli",
+            "age": "33",
+            "BATTING": "Right-hand bat",
+            "t20": "3227"
+        },
+        {
+            "name": "Ajinkya Madhukar Rahane",
+            "age": "33",
+            "BATTING": "Right-hand bat",
+            "t20": "623"
+        },
+        {
+            "name": "Rohit Gurunath Sharma",
+            "age": "34",
+            "BATTING": "Right-hand bat",
+            "t20": "3197"
+        }
+    ],
+    "BOWLING": [
+        {
+            "name": "Ravichandran Ashwin",
+            "age": "35",
+            "bowling": "Right arm offbreak",
+            "w": "61"
+        },
+        {
+            "name": "Jasprit Jasbirsingh Bumrah",
+            "age": "28",
+            "bowling": "Right arm fast",
+            "w": "66"
+        },
+        {
+            "name": "Bhuvneshwar Kumar Singh",
+            "age": "31",
+            "bowling": "Right arm medium",
+            "w": "53"
+        },
+        {
+            "name": "Mohammed Shami Ahmed",
+            "age": "31",
+            "bowling": "Right arm fast",
+            "w": "18"
+        },
+        {
+            "name": "Axar Rajeshbhai Patel",
+            "age": "27",
+            "bowling": "Left hand bat",
+            "w": "13"
+        }
+    ],
+    "ALL": [
+        {
+            "name": "Hardik Himanshu Pandya",
+            "age": "28",
+            "batting": "Right arm medium fast",
+            "a": "553"
+        },
+        {
+            "name": "Ravindrasinh Anirudhsinh Jadeja",
+            "age": "33",
+            "batting": "Slow left arm orthodox",
+            "a": "256"
+        }
+    ]
+}
